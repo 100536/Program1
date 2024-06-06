@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <script>
+        "use strict";
+        function cotroleer()
+        {
+            let waarde = document.getElementById("imvoer").value;
+            if (waarde == "")
+            {
+                document.getElementById("uitvoer").innerHTML = "Niks ingevild";
+            }
+            else
+            {
+                document.getElementById("uitvoeren").innerHTML = "Hallo,  " + waarde;
+            }
+        }
+    </script>
+</head>
+<body>
+    Naam: <input type="text" id="invoer"/><br/><br/>
+    <button id ="knop" onclick() ">KLIK</button><br/><br/>
+    <div id="uitvoer"></div>
+</body>
+</html>

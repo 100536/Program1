@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ministerie Begroting</title>
+  <link rel="stylesheet" href="Eindopdracht2.css">
+</head>
+<body>
+  <h1>Eindopdracht 2</h1>
+  <form id="budgetForm">
+    <div class="ministerie">
+      <label for="education">Onderwijs</label>
+      <input type="number" id="education" class="budget-input" placeholder="Bedrag in miljarden">
+    </div>
+    <div class="ministerie">
+      <label for="health">Volksgezondheid</label>
+      <input type="number" id="health" class="budget-input" placeholder="Bedrag in miljarden">
+    </div>
+
+    <button type="submit" id="calculateButton">Verzenden</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="Eindopdracht2.js"></script>
+</body>
+</html>

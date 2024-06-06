@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .ministerie {
+    margin-bottom: 10px;
+  }
+  
+  .ministerie label {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  .budget-input {
+    width: 100px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
